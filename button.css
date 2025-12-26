@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+
+body {
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: larger;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #003049;
+}
+
+button {
+  font-family: inherit;
+  background: none;
+  border: 2px solid;
+  padding: 1em 2em;
+  color: #b2c112;
+  font-size: 1em;
+  transition: color 0.5s ease-in-out, transform 0.25s, box-shadow 0.5s, border-radius 0.15s;
+}
+
+button:hover {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 0 0.5em 5em -0.4em #669bbc;
+  border-radius: 20px;
+  transform: translateY(-0.4em);
+  color: #fdf0d5;
+  cursor: pointer;
+}
